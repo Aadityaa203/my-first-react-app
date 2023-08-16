@@ -1,0 +1,39 @@
+body {
+  background: skyblue;
+  transition: all 1s;
+}
+
+form {
+  background: lightgray;
+  padding: 20px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  margin: 10px;
+}
+h1,
+p,
+hr,
+.person,
+form {
+  margin: 20px;
+  font-size: 26px;
+}
+h1 {
+  font-size: 40px;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.person-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
